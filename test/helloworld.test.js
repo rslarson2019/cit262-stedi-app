@@ -10,8 +10,7 @@ it("Test Hello World", () => {
 });
 
 it("Test Say name", () => {
-    const myName = sendName();
-    console.log( myName );
-
-    expect( myName ).toBe("Riley");
+    const myName = sayName();
+    console.log(myName);
+    expect(myName).toBe("Riley" );
 } );
