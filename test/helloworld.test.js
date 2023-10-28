@@ -1,5 +1,4 @@
-import { sayHello } from "../utils/helloworld.mjs";
-import { sayName } from "../utils/helloworld.mjs";
+import { sayHello, sayName } from "../utils/helloworld.mjs";
 import assert from 'assert';
 
 it("Test Hello World", () => {
@@ -14,3 +13,4 @@ it("Test Say name", () => {
     console.log(myName);
     expect(myName).toBe("Riley" );
 } );
+
