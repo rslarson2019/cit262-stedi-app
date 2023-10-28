@@ -1,0 +1,8 @@
+{
+    "userName":"byufan@gmail.com",
+    
+    "password":"Sloth#76"
+    }
+
+// curl -d "@data.json" -H "Content-Type: application/json" -X POST https://dev.stedi.me/login
+// 76f5a3df-bd0f-4f5f-ad17-08b5672dc4b9
